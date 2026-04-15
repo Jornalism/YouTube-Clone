@@ -1,0 +1,66 @@
+.subheader {
+  position: fixed;
+  top: 57px;
+  left: 74px;
+  right: 0;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  background: white;
+  z-index: 90;
+  padding: 0 17px;
+}
+
+.right-arrow {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.middle-recommendations {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  flex: 1;
+  overflow: hidden;
+}
+
+.btn-subheader {
+  border: none;
+  height: 32px;
+  font-family: Roboto;
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0 13px;
+  white-space: nowrap;
+  
+}
+
+.btn-nav-left,
+.btn-nav-right {
+  height: 38px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  z-index: 80;
+  background-color: white;
+  padding: 4px 13px 0 13px;
+  border-radius: 25px;
+}
+
+.btn-nav-left:hover,
+.btn-nav-right:hover {
+  background-color: rgb(239, 239, 239);
+}
+
+.btn-nav-left {
+  margin-right: 3px;
+}
+
+
+
+.img-header-icon {
+  height: 14px;
+}
