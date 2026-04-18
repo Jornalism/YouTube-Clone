@@ -1,14 +1,31 @@
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   margin: 0;
   row-gap: 32px;
   column-gap: 16px;
 }
 
+.video-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* tablet */
+@media (max-width: 1130px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* mobile */
+@media (max-width: 800px) {
+  .video-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .video-preview {
   width: 100%;
-  transition: all 0.40s ease;
+  transition: all 0.4s ease;
   padding: 0;
   object-fit: fill;
 }
