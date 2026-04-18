@@ -35,7 +35,7 @@
   font-size: 14px;
   padding: 0 13px;
   white-space: nowrap;
-  
+  cursor: pointer;
 }
 
 .btn-nav-left,
